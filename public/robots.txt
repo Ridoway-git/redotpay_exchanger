@@ -2,9 +2,33 @@
 User-agent: *
 Allow: /
 
-# Sitemap location
-Sitemap: https://redotpay-topup.vercel.app/sitemap.xml
-
-# Disallow admin and API routes
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
 Disallow: /api/
-Disallow: /admin/ 
+
+# Sitemaps
+Sitemap: https://redotpay.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Additional rules for specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block archive.org
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: / 
