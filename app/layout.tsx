@@ -54,6 +54,35 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FinancialService",
+    "name": "RedotPay",
+    "description": "Instant USD to BDT exchange service in Bangladesh. Get the best exchange rate of 140 BDT with secure transactions and 24/7 support.",
+    "url": "https://redotpay-exchanger.vercel.app",
+    "telephone": "+880 1234567890",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "Bangladesh",
+      "addressRegion": "Dhaka"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "23.8103",
+      "longitude": "90.4125"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "sameAs": [
+      "https://facebook.com/redotpay",
+      "https://twitter.com/redotpay",
+      "https://linkedin.com/company/redotpay"
+    ],
+    "priceRange": "$$",
+    "areaServed": "Bangladesh",
+    "serviceType": "Currency Exchange",
+    "currenciesAccepted": "USD, BDT"
+  };
+
   return (
     <html lang="bn">
       <head>
@@ -63,27 +92,7 @@ export default function RootLayout({
         <meta name="geo.position" content="23.6850;90.3563" />
         <meta name="ICBM" content="23.6850, 90.3563" />
         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FinancialService",
-            "name": "RedotPay",
-            "description": "Exchange USD to BDT instantly with RedotPay. Get the best exchange rate with secure transactions and 24/7 support.",
-            "url": "https://redotpay.com",
-            "telephone": "+8801845978534",
-            "address": {
-              "@type": "PostalAddress",
-              "addressCountry": "BD",
-              "addressRegion": "Dhaka",
-              "addressLocality": "Dhaka"
-            },
-            "priceRange": "$$",
-            "openingHours": "Mo-Su 00:00-23:59",
-            "sameAs": [
-              "https://facebook.com/redotpay",
-              "https://twitter.com/redotpay",
-              "https://instagram.com/redotpay"
-            ]
-          })}
+          {JSON.stringify(jsonLd)}
         </script>
       </head>
       <body className={inter.className}>{children}</body>
