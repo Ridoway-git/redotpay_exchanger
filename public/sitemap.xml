@@ -7,61 +7,43 @@
         http://www.google.com/schemas/sitemap-image/1.1
         http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
   <url>
-    <loc>https://redotpay.com</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://redotpay.com/og-image.jpg</image:loc>
+      <image:loc>https://redotpay-exchanger.vercel.app/og-image.jpg</image:loc>
       <image:title>RedotPay - USD to BDT Exchange Service</image:title>
       <image:caption>Exchange USD to BDT instantly with RedotPay. Get the best exchange rate with secure transactions and 24/7 support.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://redotpay.com/about</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app/about</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://redotpay.com/contact</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app/contact</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://redotpay.com/services</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app/services</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://redotpay-topup.vercel.app</loc>
-    <lastmod>2024-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://redotpay-topup.vercel.app/about</loc>
-    <lastmod>2024-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://redotpay-topup.vercel.app/contact</loc>
-    <lastmod>2024-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://redotpay-topup.vercel.app/terms</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app/terms</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://redotpay-topup.vercel.app/privacy</loc>
-    <lastmod>2024-03-19</lastmod>
+    <loc>https://redotpay-exchanger.vercel.app/privacy</loc>
+    <lastmod>2025-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

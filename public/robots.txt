@@ -8,7 +8,7 @@ Disallow: /private/
 Disallow: /api/
 
 # Sitemaps
-Sitemap: https://redotpay.com/sitemap.xml
+Sitemap: https://redotpay-exchanger.vercel.app/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 10
