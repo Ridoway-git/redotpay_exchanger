@@ -6,8 +6,13 @@ import { FaChartLine, FaArrowUp, FaArrowDown } from 'react-icons/fa'
 
 const RateHistory = () => {
   // Mock data for May 2025
-  const rateHistory = [
-    { date: '2025-05-26', rate: 140 }, // Current rate
+   const rateHistory = [
+    { date: '2025-05-25', rate: 140 }, // Current rate
+    { date: '2025-05-24', rate: 139 },
+    { date: '2025-05-23', rate: 138 },
+    { date: '2025-05-22', rate: 139 },
+    { date: '2025-05-21', rate: 140 },
+    { date: '2025-05-20', rate: 139 },
   ]
 
   const currentRate = rateHistory[0].rate // Current rate (May 8)
